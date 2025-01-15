@@ -1,0 +1,44 @@
+[zh-cn]
+  weight = 1
+  # 语言名称
+  languageName = "简体中文"
+  # 是否包含中日韩文字
+  hasCJKLanguage = true
+  # 默认每页显示的文章数目
+  paginate = 12
+  
+  # 菜单配置
+  [zh-cn.menu]
+    [[zh-cn.menu.main]]
+      identifier = "archives"
+      name = "归档"
+      url = "/archives/"
+      weight = 1
+      [zh-cn.menu.main.params]
+        icon = "fa-solid fa-archive"
+    [[zh-cn.menu.main]]
+      identifier = "categories"
+      name = "分类"
+      url = "/categories/"
+      weight = 2
+      [zh-cn.menu.main.params]
+        icon = "fa-solid fa-folder-tree"
+    [[zh-cn.menu.main]]
+      identifier = "tags"
+      name = "标签" 
+      url = "/tags/"
+      weight = 3
+      [zh-cn.menu.main.params]
+        icon = "fa-solid fa-tags"
+
+  # 网站描述
+  [zh-cn.params]
+    description = "这是我的博客"
+    keywords = ["博客", "Hugo", "FixIt"]
+    [zh-cn.params.app]
+      title = "龙龙的博客"
+    [zh-cn.params.header.title]
+      name = "龙龙的博客"
+    [zh-cn.params.home.profile]
+      title = "欢迎来到龙龙的主页"
+      subtitle = "这是副标题"
