@@ -4,7 +4,7 @@
 # -------------------------------------------------------------------------------------
 
 title = "Hugo FixIt Blog"
-baseURL = "https://DesmonXD.github.io/gitweb/"
+baseURL = "https://salvatemi.uk/"
 theme = [
   "FixIt",
   "shortcode-docs-bookmark"
