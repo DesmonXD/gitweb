@@ -231,31 +231,31 @@ disableThemeInject = false
   peakCount = 10 # Maximum count of posts per tag
   orderby = "name" # Order of tags, optional values: ["name", "count"]
 
-# Home page config
+# 首页配置
 [home]
-  # Home page profile
+  # 首页个人资料
   [home.profile]
     enable = true
-    # Gravatar Email for preferred avatar in home page
+    # 用于首页头像的Gravatar邮箱
     gravatarEmail = "xx@xx.com"
-    # URL of avatar shown in home page
+    # 首页显示的头像URL
     avatarURL = ""
-    # FixIt 0.2.17 | NEW identifier of avatar menu link
+    # FixIt 0.2.17 | 新增头像菜单链接标识符
     avatarMenu = ""
-    # title shown in home page (HTML format is supported)
-    title = ""
-    # subtitle shown in home page (HTML format is supported)
-    subtitle = "This is my new Hugo FixIt site"
-    # whether to use typeit animation for subtitle
+    # 首页显示的标题（支持HTML格式）
+    title = "你好呀"
+    # 首页显示的副标题（支持HTML格式）
+    subtitle = "这是副标题"
+    # 是否使用typeit动画显示副标题
     typeit = true
-    # whether to show social links
+    # 是否显示社交链接
     social = true
-    # disclaimer (HTML format is supported)
+    # 免责声明（支持HTML格式）
     disclaimer = ""
-  # Home page posts
+  # 首页文章
   [home.posts]
     enable = true
-    # special amount of posts in each home posts page
+    # 每个首页文章页面的特殊文章数量
     paginate = 6
 
 # FixIt 0.2.16 | CHANGED Social config about the author
