@@ -261,7 +261,7 @@ disableThemeInject = false
 
 # FixIt 0.2.16 | CHANGED Social config about the author
 [social]
-  GitHub = ""
+  GitHub = ""#desmonxd
   Linkedin = ""
   Twitter = ""
   Instagram = ""
@@ -322,13 +322,13 @@ disableThemeInject = false
   Gitea = ""
   XMPP = ""
   Matrix = ""
-  Bilibili = ""
+  Bilibili = ""#344311215
   ORCID = ""
   Liberapay = ""
   Ko-Fi = ""
   BuyMeaCoffee = ""
   Linktree = ""
-  QQ = ""
+  QQ = ""#2393560355
   QQGroup = "" # https://qun.qq.com/join.html
   Diaspora = ""
   CSDN = ""
@@ -348,7 +348,7 @@ disableThemeInject = false
   Credly = ""
   Phone = ""
   Email = ""
-  RSS = true
+  RSS = ""
   # custom social links like the following
   # [social.twitter]
   #   id = "lruihao"
