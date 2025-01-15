@@ -6,7 +6,7 @@
 # FixIt 0.2.15 | CHANGED FixIt theme version
 version = "0.3.X" # e.g. "0.2.X", "0.2.15", "v0.2.15" etc.
 # site description
-description = "This is my new Hugo FixIt site"
+description = "这是我的博客"
 # site keywords
 keywords = ["Hugo", "FixIt"]
 # site default theme ["light", "dark", "auto"]
@@ -59,11 +59,11 @@ disableThemeInject = false
 # App icon config
 [app]
   # optional site title override for the app when added to an iOS home screen or Android launcher
-  title = "Hugo FixIt Blog"
+  title = "龙龙的博客"
   # whether to omit favicon resource links
   noFavicon = false
   # modern SVG favicon to use in place of older style .png and .ico files
-  svgFavicon = ""
+  svgFavicon = "/images/favicon.svg"
   # Safari mask icon color
   iconColor = "#5bbad5"
   # Windows v8-10 tile color
@@ -114,10 +114,10 @@ disableThemeInject = false
   mobileMode = "auto"
   # Header title config
   [header.title]
-    # URL of the LOGO
-    logo = "/hugo-fixit-starter1/images/fixit.min.svg"
+    # Logo URL
+    logo = "/images/logo.png"
     # title name
-    name = ""
+    name = "龙龙的博客"
     # you can add extra information before the name (HTML format is supported), such as icons
     pre = ""
     # you can add extra information after the name (HTML format is supported), such as icons
@@ -236,14 +236,15 @@ disableThemeInject = false
   # 首页个人资料
   [home.profile]
     enable = true
-    # 用于首页头像的Gravatar邮箱
-    gravatarEmail = "xx@xx.com"
-    # 首页显示的头像URL
-    avatarURL = ""
+    # 方式1: 使用 Gravatar 邮箱头像
+    # gravatarEmail = "xx@xx.com"
+    
+    # 方式2: 直接设置头像URL
+    avatarURL = "/images/avatar.jpg"
     # FixIt 0.2.17 | 新增头像菜单链接标识符
     avatarMenu = ""
     # 首页显示的标题（支持HTML格式）
-    title = "你好呀"
+    title = "欢迎来到龙龙的主页"
     # 首页显示的副标题（支持HTML格式）
     subtitle = "这是副标题"
     # 是否使用typeit动画显示副标题
