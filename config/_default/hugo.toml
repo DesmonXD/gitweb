@@ -11,6 +11,7 @@ theme = [
 ]
 defaultContentLanguage = "zh-cn"
 languageCode = "zh-CN"
+languageName = "简体中文"
 hasCJKLanguage = true
 enableRobotsTXT = true
 enableEmoji = true
