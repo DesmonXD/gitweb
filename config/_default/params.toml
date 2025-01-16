@@ -4,7 +4,7 @@
 # -------------------------------------------------------------------------------------
 
 # FixIt 0.2.15 | CHANGED FixIt theme version
-version = "0.3.X" # e.g. "0.2.X", "0.2.15", "v0.2.15" etc.
+version = "0.3.16" # e.g. "0.2.X", "0.2.15", "v0.2.15" etc.
 # site description
 description = "这是我的博客"
 # site keywords
@@ -42,8 +42,8 @@ disableThemeInject = false
 [author]
   name = "龙慕云"
   email = "S@salvatemi.com"
-  link = "https://github.com/desmonxd"
-  avatar = ""
+  link = ""#https://github.com/desmonxd
+  avatar = "/images/avatar.jpg"
 
 # FixIt 0.3.0 | NEW public Git repository information only then enableGitInfo is true
 [gitInfo]
@@ -155,7 +155,7 @@ disableThemeInject = false
   # whether to show the author
   author = true
   # Site creation year
-  since = 2021
+  since = 2025
   # FixIt 0.2.12 | NEW Public network security only in China (HTML format is supported)
   gov = ""
   # ICP info only in China (HTML format is supported)
@@ -164,16 +164,16 @@ disableThemeInject = false
   license = '<a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a>'
   # FixIt 0.3.0 | NEW whether to show Hugo and theme info
   [footer.powered]
-    enable = true
+    enable = false
     hugoLogo = true
     themeLogo = true
   # FixIt 0.2.17 | CHANGED Site creation time
   [footer.siteTime]
-    enable = false
+    enable = true
     animate = true
     icon = "fa-solid fa-heartbeat"
     pre = ""
-    value = "" # e.g. "2021-12-18T16:15:22+08:00"
+    value = "2025-01-15T00:00:00+08:00"
   # FixIt 0.2.17 | NEW footer lines order, optional values: ["first", 0, 1, 2, 3, 4, 5, "last"]
   [footer.order]
     powered = 0
