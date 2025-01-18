@@ -41,7 +41,7 @@ disableThemeInject = false
 # Author Configuration
 [author]
   name = "龙慕云"
-  email = "S@salvatemi.com"
+  email = ""
   link = ""#https://github.com/desmonxd
   avatar = "/images/avatar.jpg"
 
@@ -240,7 +240,7 @@ disableThemeInject = false
     # gravatarEmail = "xx@xx.com"
     
     # 方式2: 直接设置头像URL
-    avatarURL = "/images/avatar.jpg"
+    #avatarURL = "/images/avatar.jpg"
     # FixIt 0.2.17 | 新增头像菜单链接标识符
     avatarMenu = ""
     # 首页显示的标题（支持HTML格式）
@@ -499,7 +499,7 @@ disableThemeInject = false
 # FixIt 0.2.14 | NEW Gravatar config
 [gravatar]
   # FixIt 0.2.18 | NEW Depends on the author's email, if the author's email is not set, the local avatar will be used
-  enable = true
+  enable = false
   # Gravatar host, default: "www.gravatar.com"
   host = "www.gravatar.com" # ["cravatar.cn", "gravatar.loli.net", ...]
   style = "" # ["", "mp", "identicon", "monsterid", "wavatar", "retro", "blank", "robohash"]
