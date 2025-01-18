@@ -41,7 +41,7 @@ disableThemeInject = false
 # Author Configuration
 [author]
   name = "龙慕云"
-  email = ""
+  email = "S@salvatemi.com"
   link = ""#https://github.com/desmonxd
   avatar = "/images/avatar.jpg"
 
@@ -240,7 +240,7 @@ disableThemeInject = false
     # gravatarEmail = "xx@xx.com"
     
     # 方式2: 直接设置头像URL
-    #avatarURL = "/images/avatar.jpg"
+    avatarURL = "/images/avatar.jpg"
     # FixIt 0.2.17 | 新增头像菜单链接标识符
     avatarMenu = ""
     # 首页显示的标题（支持HTML格式）
